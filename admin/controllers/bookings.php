@@ -1,0 +1,3 @@
+<?php
+
+$allBookings = $adminDbFunc->listAllBookings();

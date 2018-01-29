@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule !(\.gif|\.png|\.jpe?g|\.css|\.js|\.swf|\.wmv|\.avi|\.flv|\.jpg|\.rtf|\.pdf|\.doc|\.docx|\.php|^public/.*)$ index.php [nocase,last]
+
+ErrorDocument 403 http://localhost/event_booking/
+ErrorDocument 502 http://localhost/event_booking/
+ErrorDocument 404 http://localhost/event_booking/

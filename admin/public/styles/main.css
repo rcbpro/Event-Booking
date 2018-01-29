@@ -1,0 +1,31 @@
+#eventListingDiv{
+	width:400px; 
+	float:left;
+}
+#eventAddingDiv{
+	float:left;
+	margin-left:20px;
+}
+#eventLabel{
+	color:#000;
+	position:absolute;
+	top:335px;
+	font-weight:bold; color:#333;
+	margin-left:10px;
+	margin-top:2px; 
+}
+.errorInSpan{
+	color:#FF0000;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.errorInInput{
+	background-color:#FF0000;
+}
+.successInSpan{
+	color:#069;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;	
+}
